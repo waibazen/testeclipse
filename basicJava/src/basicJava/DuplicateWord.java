@@ -3,7 +3,7 @@ package basicJava;
 public class DuplicateWord {
 
 	public static void main(String[] args) {
-		String string = "Big black bug bit a big black balck black dog his dog on his big black nose";
+		String string = "Big black bacl bug bug  bug bit a big black balck black dog his dog on his big black nose";
 		int count;
 
 		// Converts the string into lowercase
