@@ -13,6 +13,7 @@ public class DuplicateWord {
 		String words[] = string.split(" ");
 
 		System.out.println("Duplicate words in a given string : ");
+		//using brute force running contiguous iteration and double loops
 		for (int i = 0; i < words.length; i++) {
 			count = 1;
 			for (int j = i + 1; j < words.length; j++) {
@@ -20,6 +21,7 @@ public class DuplicateWord {
 					count++;
 					// Set words[j] to 0 to avoid printing visited word
 					words[j] = "0";
+					System.out.println(words[j]);
 				}
 			}
 
